@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+#know-us {
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: bolder;
+  font-size: 20px
+}
+
+button {
+  padding: 15px;
+  margin: 15px
+}
+
+p {
+  margin: 10px;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +52,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-style {
+  position: fixed;
+  top: 21%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px;
+  z-index: 1000;
+  border-radius: 5px
 }

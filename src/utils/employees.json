@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "image": "https://randomuser.me/api/portraits/women/90.jpg",
+      "name": "Nadine True",
+      "department": "CEO/Co-Founder",
+      "email": "ntrue@negocio.com"
+    },
+    {
+      "id": 2,
+      "image": "https://randomuser.me/api/portraits/women/65.jpg",
+      "name": "Nicole Caroline",
+      "department": "CFO/Co-Founder",
+      "email": "ncaroline@negocio.com"
+    },
+    {
+      "id": 3,
+      "image": "https://randomuser.me/api/portraits/women/95.jpg",
+      "name": "Tori Mongu",
+      "department": "COO",
+      "email": "tmongu@negocio.com"
+    },
+    {
+      "id": 4,
+      "image": "https://randomuser.me/api/portraits/women/43.jpg",
+      "name": "Diane Sciulli",
+      "department": "Logistics",
+      "email": "sjimenez@negocio.com"
+    },
+    {
+      "id": 5,
+      "image": "https://randomuser.me/api/portraits/women/62.jpg",
+      "name": "Lauren Stewart",
+      "department": "Marketing",
+      "email": "lstewart@negocio.com"
+    },
+    {
+      "id": 6,
+      "image": "https://randomuser.me/api/portraits/women/27.jpg",
+      "name": "Ximena Romano",
+      "department": "Social Media",
+      "email": "xromano@negocio.com"
+    },
+    {
+      "id": 7,
+      "image": "https://randomuser.me/api/portraits/women/66.jpg",
+      "name": "Susana Jimenez",
+      "department": "Logistics",
+      "email": "dsciulli@negocio.com"
+    },
+    {
+      "id": 8,
+      "image": "https://randomuser.me/api/portraits/women/5.jpg",
+      "name": "Andi Wilson",
+      "department": "Marketing",
+      "email": "awilson@negocio.com"
+    },
+    {
+      "id": 9,
+      "image": "https://randomuser.me/api/portraits/women/30.jpg",
+      "name": "Camilla Johnson",
+      "department": "Sales",
+      "email": "cjohnson@negocio.com"
+    },
+    {
+      "id": 10,
+      "image": "https://randomuser.me/api/portraits/women/88.jpg",
+      "name": "Taleen Alva",
+      "department": "Sr. Dev Ops",
+      "email": "talva@negocio.com"
+    }
+  ]

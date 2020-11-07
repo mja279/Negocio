@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React, {useState} from "react";
+
+import Wrapper from "./components/Wrapper/index";
+import Container from "./components/Container";
+import Nav from "./components/Nav/index";
+import ModalContainer from "./components/Modal/ModalContainer";
+
+
+
 import './App.css';
 
+
 function App() {
+
+  const [modalShow, setModalShow] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Nav />
+    <Wrapper>
+      <Container className="col-md-12">
+      <ModalContainer show={modalShow} onHide={() => setModalShow(false)} />
+      </Container>
+    </Wrapper>
+  </>
   );
 }
 
